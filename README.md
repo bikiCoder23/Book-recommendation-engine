@@ -8,7 +8,7 @@ This is my Microsoft Engage 2022 project on the problem statement of Algorithms 
 
 ## Overview
 
-**BookShelf** is a multifunctionality web application which uses ***Popularity-based Recommendation*** to displays Top 50 books by using *mean-threshold algorithm* in the `Top 50` section. This application also uses ***Item-item Collaborative filtering***  in the `What's next` section where the user can search a book he/she liked, and the application will recommend top four 'Books you should Read' next similar to the book searched by the user by calculating *similarity scores* with different books based on user ratings & user counts.
+**BookShelf** is a multifunctionality web application which uses ***Popularity-based Recommendation*** to display Top 50 books by using *mean-threshold algorithm* in the `Top 50` section. This application also uses ***Item-item Collaborative filtering***  in the `What's next` section where the user can search a book he/she liked, and the application will recommend top four 'Books you should Read' next similar to the book searched by the user by calculating *similarity scores* with different books based on user ratings & user counts.
       For calculating the similarity scores I'm using `cosine similarity`, to learn more about it follow the Functionality Used section.
       
       
@@ -26,6 +26,10 @@ Check out the live demo: https://ac25-47-11-200-121.ngrok.io/
 
 
 ## Functionality Used:
+
+### Mean-Threshold :
+
+It is an algorithm to filter out item based on certain characteristics below a certain threshold and thereafter performing mean over the remaining dataset to get a realistic estimation of its popularity among the userbase. This alogrithm is implemented in the 'Top 50' section of the application to get the Top 50 movies present in the dataset.
 
 ### Similarity Score : 
 
