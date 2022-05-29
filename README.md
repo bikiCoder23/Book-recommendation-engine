@@ -24,6 +24,7 @@ Check out the live demo: https://ac25-47-11-200-121.ngrok.io/
 5. Go to your browser and type `http://127.0.0.1:5000` in the address bar.
 8. Hurray! That's it.
 
+### Note: For seamless experience of the interface, it is recommended to run the app in the locaL server by following the above steps!
 
 ## Functionality Used:
 
